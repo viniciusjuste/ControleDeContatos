@@ -1,0 +1,98 @@
+﻿@model List<UsuarioModel>
+@{
+    ViewData["Title"] = "Listagem de usuários";
+}
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+    <a role="button" class="btn btn-primary" asp-controller="Usuario" asp-action="Criar">Adicionar novo usuário</a>
+</div>
+<br />
+    @if (TempData["MensagemSucesso"] != null)
+    {
+         <div class="alert alert-success" role="alert">
+         <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+         @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    @if (TempData["MensagemErro"] != null)
+    {
+              <div class="alert alert-danger" role="alert">
+             <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+             @TempData["MensagemErro"]
+             </div>
+    }
+
+    <br />
+
+<h1 class="display-4">Listagem de usuários</h1>
+
+<table id="table-usuarios" class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Login</th>
+      <th scope="col">E-mail</th>
+      <th scope="col">Perfil</th>
+      <th scope="col">Total de Contatos</th>
+      <th scope="col">Data de cadastro</th>
+       <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var usuario in Model)
+                {
+                                     <tr>
+                      <th scope="row">@usuario.Id</th>
+                              <td>@usuario.Nome</td>
+                              <td>@usuario.Login</td>
+                              <td>@usuario.Email</td>
+                              <td>@(usuario.Perfil == ControleDeContatos.Enums.PerfilEnum.Admin? "Administrador" : "Padráo")</td>
+                                <td>
+                               <a href="javascript:" usuario-id="@usuario.Id" class="btn btn-success btn-sm btn-total-contatos">
+                                    @(usuario.Contatos != null && usuario.Contatos.Any() ? usuario.Contatos.Count : 0)
+                                </a>
+                                </td>
+                              <td>@usuario.DataCadastro</td>
+                      <td>
+                          <div class="btn-group" role="group">
+                          <a role="button" class="btn btn-primary mx-2" asp-controller="Usuario" asp-route-id="@usuario.Id" asp-action="Editar">Editar</a>
+                                  <a role="button" class="btn btn-danger mx-2" asp-controller="Usuario" asp-route-id="@usuario.Id" asp-action="ApagarConfirmacao">Apagar</a>
+                        </div>
+                      </td>
+                    </tr>
+                }
+            } else
+            {
+                <tr class="odd"><td valign="top" colspan="5">Nenhum usuário encontrado</td></tr>
+            }
+
+  </tbody>
+</table
+
+<!--Modal-->
+<div class="modal fade" id="modalContatosUsuario" tabindex="-1" role="dialog" aria-labelledby="modalContatosUsuarioLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalContatosUsuarioLabel">Contatos do Usuário</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+              <div id="listaContatoUsuario"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+
