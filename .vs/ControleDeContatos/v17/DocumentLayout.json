@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83B5EE28-B6B7-4967-B33C-4C6F3675551B}|ControleDeContatos.csproj|c:\\users\\vinic_jmhc68q\\onedrive\\documentos\\csharp\\controledecontatos\\views\\contato\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83B5EE28-B6B7-4967-B33C-4C6F3675551B}|ControleDeContatos.csproj|solutionrelative:views\\contato\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B5EE28-B6B7-4967-B33C-4C6F3675551B}|ControleDeContatos.csproj|c:\\users\\vinic_jmhc68q\\onedrive\\documentos\\csharp\\controledecontatos\\views\\contato\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83B5EE28-B6B7-4967-B33C-4C6F3675551B}|ControleDeContatos.csproj|solutionrelative:views\\contato\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B5EE28-B6B7-4967-B33C-4C6F3675551B}|ControleDeContatos.csproj|c:\\users\\vinic_jmhc68q\\onedrive\\documentos\\csharp\\controledecontatos\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83B5EE28-B6B7-4967-B33C-4C6F3675551B}|ControleDeContatos.csproj|solutionrelative:controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B5EE28-B6B7-4967-B33C-4C6F3675551B}|ControleDeContatos.csproj|c:\\users\\vinic_jmhc68q\\onedrive\\documentos\\csharp\\controledecontatos\\repositorio\\contatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83B5EE28-B6B7-4967-B33C-4C6F3675551B}|ControleDeContatos.csproj|solutionrelative:repositorio\\contatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B5EE28-B6B7-4967-B33C-4C6F3675551B}|ControleDeContatos.csproj|c:\\users\\vinic_jmhc68q\\onedrive\\documentos\\csharp\\controledecontatos\\repositorio\\icontatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83B5EE28-B6B7-4967-B33C-4C6F3675551B}|ControleDeContatos.csproj|solutionrelative:repositorio\\icontatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +47,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\Views\\Contato\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contato\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\Views\\Contato\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Contato\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T01:14:50.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\Views\\Contato\\Criar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contato\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\Views\\Contato\\Criar.cshtml",
+              "RelativeToolTip": "Views\\Contato\\Criar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T01:14:35.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContatoController.cs",
+              "DocumentMoniker": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\Controllers\\ContatoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContatoController.cs",
+              "ToolTip": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\Controllers\\ContatoController.cs",
+              "RelativeToolTip": "Controllers\\ContatoController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAswCQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:59:00.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IContatoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\Repositorio\\IContatoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\IContatoRepositorio.cs",
+              "ToolTip": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\Repositorio\\IContatoRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\IContatoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:42:40.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContatoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\Repositorio\\ContatoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\ContatoRepositorio.cs",
+              "ToolTip": "C:\\Users\\vinic_jmhc68q\\OneDrive\\Documentos\\CSharp\\ControleDeContatos\\Repositorio\\ContatoRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\ContatoRepositorio.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:42:26.806Z",
+              "EditorCaption": ""
             }
           ]
         }
